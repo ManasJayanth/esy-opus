@@ -3,6 +3,12 @@
   "version": "1.3.1000",
   "description": "opus packaged for esy",
   "esy": {
+    "exportedEnv": {
+      "PKG_CONFIG_PATH": {
+        "scope": "global",
+        "val": "#{self.lib / 'pkgconfig' : $PKG_CONFIG_PATH }"
+      }
+    },
     "buildsInSource": true,
     "build": [
       [
