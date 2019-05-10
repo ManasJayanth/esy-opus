@@ -11,6 +11,7 @@
     },
     "buildsInSource": true,
     "build": [
+      "find ./ -exec touch -t 200905010101 {} + ",
       [
         "chmod",
         "755",
