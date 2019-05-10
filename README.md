@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/prometheansacrifice/esy-packages/_apis/build/status/prometheansacrifice.esy-opus?branchName=master)](https://dev.azure.com/prometheansacrifice/esy-packages/_build/latest?definitionId=29&branchName=master)
+
 == Opus audio codec ==
 
 Opus is a codec for interactive speech and audio transmission over the Internet.
